@@ -5,16 +5,16 @@ Ever wonder how many lines of code your project has grown to? Well now you can f
 
 # Usage
 To run from command prompt:
-python LinesOfCodeCounter.py [root_dir] [file_types_to_count]
-[root_dir] the relative/absolute path to the root directory containing your project
-[file_types_to_count]  a comma separated list of file extensions to include in the count.
+* python LinesOfCodeCounter.py [root_dir] [file_types_to_count]
+* [root_dir] the relative/absolute path to the root directory containing your project
+* [file_types_to_count]  a comma separated list of file extensions to include in the count.
 
 Example count lines of code in .c, .py and .h files with current directory as root:
 python LinesOfCodeCounter.py . .c,.py,.h
 
 OR
 
-run the python script and enter the directory and file types when requested.
+Run the python script and enter the directory and file types when requested.
 
 ## Copyright & License
 
